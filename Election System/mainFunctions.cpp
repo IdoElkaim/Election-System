@@ -257,7 +257,7 @@ void newRound() {
 	int type;
 	cin >> type;
 
-	cout << "Enter date for elections day (dd/mm/yyyy): " << endl;
+	cout << "Enter date for elections day (dd mm yyyy): " << endl;
 	cin >> day >> month >> year;
 	Check(day, month, year);
 	
